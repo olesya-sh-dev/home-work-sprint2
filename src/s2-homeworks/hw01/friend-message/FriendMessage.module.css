@@ -30,20 +30,34 @@
   padding: 13px 8px 13px 8px;
   position: relative;
 }
-
 .friendText:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 13px solid rgb(245 247 251);
+
+  box-shadow: 0px 5px 20px rgba(29, 38, 38, 0.01),
+    0px 1px 0px rgba(29, 38, 38, 0.05);
+
+  bottom: 0;
+  left: -12px;
+}
+/* .friendText:after {
   content: " ";
   position: absolute;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 13px 0 0 13px;
-
+  box-shadow: -5px 5px red, -5px 5px 0px 3px black;
   border-color: transparent transparent transparent rgb(245, 247, 251);
   rotate: -90deg;
   bottom: 0;
   left: -12px;
-}
+} */
 
 .friendName {
   color: rgb(0, 0, 0);
