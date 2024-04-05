@@ -27,17 +27,18 @@ export const filterAffairs = (
 ): AffairType[] => {
   if (filter === "all") {
     return affairs;
-  }
-  if (filter === "high") {
-    return affairs.filter((el) => el.priority === "high");
-  }
-  if (filter === "middle") {
-    return affairs.filter((el) => el.priority === "middle");
-  }
-  if (filter === "low") {
-    return affairs.filter((el) => el.priority === "low");
-  }
-  return affairs; // need to fix
+  } else return affairs.filter((el) => el.priority === filter);
+  //мой вариант
+  // if (filter === "high") {
+  //   return affairs.filter((el) => el.priority === "high");
+  // }
+  // if (filter === "middle") {
+  //   return affairs.filter((el) => el.priority === "middle");
+  // }
+  // if (filter === "low") {
+  //   return affairs.filter((el) => el.priority === "low");
+  // }
+  // return affairs; // need to fix
 };
 
 export const deleteAffair = (
