@@ -26,7 +26,7 @@
 
   padding-top: 8px;
   padding-bottom: 8px;
- 
+
   box-sizing: border-box;
   border: 1px solid rgb(209, 209, 209);
   border-radius: 5px;
@@ -34,14 +34,13 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  
+
   letter-spacing: 0%;
   text-align: left;
-  
 }
 
 .input:focus {
-  background-color: grey;
+ border-color: black;
 }
 
 .errorInput {
@@ -49,6 +48,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
   height: 36px;
+  width: 372px;
 }
 
 .button {
@@ -86,7 +86,6 @@
 }
 
 .greeting {
-
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
