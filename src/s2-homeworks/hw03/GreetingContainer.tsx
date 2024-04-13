@@ -27,7 +27,7 @@ export const pureAddUser = (
 export const pureOnBlur = (name: string, setError: (value: string) => void) => {
   if (name.trim() === "") {
     setError("Ошибка! Введите имя!");
-  }
+  } 
   // если имя пустое - показать ошибку
 };
 
@@ -62,6 +62,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     setError(""); // очищаем ошибку, если имя введено
   }
 };
+
+
   const addUser = () => {
     pureAddUser(name, setError, setName, addUserCallback);
   };

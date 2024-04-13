@@ -40,7 +40,7 @@
 }
 
 .input:focus {
- border-color: black;
+  border-color: black;
 }
 
 .errorInput {

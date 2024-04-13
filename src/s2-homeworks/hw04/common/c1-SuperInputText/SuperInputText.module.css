@@ -1,20 +1,38 @@
 .input:focus {
+  outline-color: transparent;
 }
 
 .input {
+  /* Component 3 */
+  width: 372px;
+  height: 36px;
+  box-sizing: border-box;
 }
 
 .inputWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
 }
 
 .superInput {
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
 }
 
 .errorInput {
+  border: 1px solid rgb(204, 20, 57);
+  border-radius: 5px;
 }
 
 .errorInput:focus {
+  border: 2px solid red;
 }
 
 .error {
+  color: rgb(204, 20, 57);
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
 }
