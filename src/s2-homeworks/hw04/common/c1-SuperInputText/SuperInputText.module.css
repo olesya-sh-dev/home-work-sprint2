@@ -1,5 +1,6 @@
 .input:focus {
-  outline-color: transparent;
+  /* outline-color: transparent; */
+  outline: none;
 }
 
 .input {

@@ -20,7 +20,7 @@ type SuperInputTextPropsType = Omit<DefaultInputPropsType, 'type'> & {
     error?: ReactNode
     spanClassName?: string
 }
-
+//Omit - Откидывает указанные свойства из типа T
 const SuperInputText: React.FC<SuperInputTextPropsType> = (
     {
         onChange,
