@@ -1,8 +1,18 @@
 .sidebar {
   display: none;
+ /* transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity, transform;
+  opacity: 0;
+  transform: translateX(-100%); */
 }
 
 .sidebar.open {
+  /* transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity, transform;
+  opacity: 1;
+  transform: translateX(0); */
   display: flex;
   padding-right: 16px;
   padding-top: 16px;
