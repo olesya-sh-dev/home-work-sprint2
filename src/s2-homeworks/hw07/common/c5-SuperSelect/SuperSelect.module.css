@@ -1,9 +1,16 @@
 .select {
+  width: 165px;
+  height: 24px;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+ border-radius: 2px;
+
 }
 
 .select:focus {
+ 
 }
-
 
 .option:hover {
-}
+ }

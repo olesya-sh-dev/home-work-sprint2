@@ -8,5 +8,7 @@
 
 
 .editableSpanContainer {
+    display: inline-block;
+    height: 36px;
 
 }
