@@ -1,6 +1,6 @@
 .button {
   border-radius: 3px;
-  width: 132px;
+  /* width: 132px; */
   height: 30px;
   padding: 5px 24px 5px 24px;
 
@@ -16,7 +16,7 @@
 }
 
 .secondary {
-  width: 176px;
+  /* width: 176px; */
   border-radius: 3px;
   color: rgb(0, 102, 204);
   border: 1px solid rgb(0, 102, 204);
@@ -34,16 +34,16 @@
 
 .default:hover {
   background: rgb(0, 128, 255);
-  width: 167px;
+  /* width: 167px; */
 }
 
 .red:hover {
   background: rgb(255, 26, 71);
-  width: 167px;
+  /* width: 167px; */
 }
 
 .secondary:hover {
-  width: 167px;
+  /* width: 167px; */
   background: rgb(229, 240, 250);
 }
 
@@ -52,7 +52,13 @@
 }
 
 .secondary:active {
-  background: rgb(201, 229, 255);
+  /* background: rgb(201, 229, 255); */
+  background:rgb(0, 89, 179);
+  color:rgb(229, 240, 250);
+}
+.secondary:clicked{
+  background:rgb(0, 89, 179);
+  color:rgb(229, 240, 250);
 }
 
 .red:active {
@@ -61,5 +67,5 @@
 
 .button:disabled {
   background: rgb(0, 77, 153);
-  width: 133px;
+  /* width: 133px; */
 }
