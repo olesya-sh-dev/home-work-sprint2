@@ -1,13 +1,15 @@
 .button {
   border-radius: 3px;
-  /* width: 132px; */
+width: auto;
   height: 30px;
   padding: 5px 24px 5px 24px;
-
+  background: rgb(0, 77, 153);
+  color: rgb(255, 255, 255);
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   border-radius: 3px;
+  
 }
 
 .disabled {
@@ -20,11 +22,14 @@
   border-radius: 3px;
   color: rgb(0, 102, 204);
   border: 1px solid rgb(0, 102, 204);
+  background: rgb(255, 255, 255);
+  padding: 5px 24px 5px 24px;
 }
 
 .default {
   background: rgb(0, 102, 204);
   color: rgb(255, 255, 255);
+  padding: 5px 24px 5px 24px;
 }
 
 .red {
