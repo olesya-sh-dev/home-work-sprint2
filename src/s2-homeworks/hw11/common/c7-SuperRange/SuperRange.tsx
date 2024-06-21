@@ -17,7 +17,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
           width: "18px",
           height: "18px", // цвет бегунка
           border: "1px solid rgb(0, 204, 34)",
-          position: "relative", // необходимо для позиционирования внутреннего эллипса
+          position: "absolute", // необходимо для позиционирования внутреннего эллипса
           "&::after": {
             content: '""', // обязательно для создания псевдоэлемента
             display: "block",
