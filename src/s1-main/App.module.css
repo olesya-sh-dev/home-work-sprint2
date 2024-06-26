@@ -12,8 +12,10 @@
   padding-left: 70px;
   padding-right: 70px;
   height: 375px;
-  margin: 0 auto;
-  gap: 30px;
+ 
+  /* width: 468px; */
+  /* margin: 0 auto; */
+ /* gap: 30px; */
 }
 
 .hwTitle {
